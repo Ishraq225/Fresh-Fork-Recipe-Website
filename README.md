@@ -7,6 +7,7 @@
 Whether you're trying to lose weight, maintain your fitness, or simply eat clean, FreshFork makes healthy cooking simple and accessible.
 
 ---
+<img width="1902" height="917" alt="image" src="https://github.com/user-attachments/assets/c8068de6-cd2c-48ea-9b34-a5b607a857b7" />
 
 ## ✨ Features
 
