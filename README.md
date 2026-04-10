@@ -72,6 +72,7 @@ Users can connect and explore more content through:
 * Meal planner & weekly tracking
 * Advanced nutrition breakdown (protein, carbs, fats)
 * Recipe search & filtering system
+* Deploy on Vercel
 
 ---
 
