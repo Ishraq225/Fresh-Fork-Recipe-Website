@@ -1,0 +1,415 @@
+body {
+    font-family: 'Lora', serif;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(to bottom right, #f0f8ff, #e3f2fd);
+}
+
+.header{
+    background-color: rgb(161, 145, 114);
+    height: 470px;
+    width: auto;
+}
+
+.logo{
+    margin-left: 10px;
+    width: auto;
+    height: 400px;
+}
+
+.header p{
+    color: white;
+}
+
+.navbar{
+    height: 54px;
+    width: auto;
+    background-color: black;
+}
+
+.navbar a{
+    color: white;
+    text-decoration: none;
+}
+
+.navbar a:hover{
+    color: black;
+
+}
+
+.nav-items{
+  margin-top: 3px;
+    margin-right: 50px;
+    border-radius: 50px;
+    padding: 16px 24px 16px 24px;
+    background-color:black;
+    border: none;
+    transition: background-color 0.3s ease;
+}
+
+.nav-items:hover{
+    background-color:  #b87c0d;
+    transform: scale(1.1);
+
+}
+
+/* Footer */
+
+.footer {
+    width: 100%;
+    height: 600px;
+    background-color: rgb(35, 35, 35);
+    float: right;
+    margin-top: 100px;
+  }
+  
+  .footer-headings {
+    font-size: 22px;
+    font-weight: bold;
+    margin-top: 20px;
+    margin-left: 10px;
+    color: rgb(255, 255, 255);
+  }
+  
+  .footer-card-texts {
+    font-size: 18px;
+    margin-top: 20px;
+    margin-left: 10px;
+    line-height: 30px;
+    color: rgb(207, 207, 207);
+  }
+  
+  .footer-card-texts a {
+    text-decoration: none;
+    color: rgb(207, 207, 207);
+    font-size: 18px;
+    margin-top: 20px;
+    line-height: 30px;
+  }
+  
+  .footer-card-texts a:hover {
+    text-decoration: underline;
+    color: rgb(222, 222, 222);
+  }
+  
+  .footer-card1 {
+    height: 250px;
+    width: 330px;
+    float: left;
+    margin-right: 20px;
+    margin-top: 25px;
+    padding: 0px 5px 0px 5px;
+    margin-left: 10px;
+  }
+  
+  .footer-card2 {
+    height: 250px;
+    width: 270px;
+    float: left;
+    margin-right: 20px;
+    margin-top: 25px;
+    padding: 0px 5px 0px 5px;
+  }
+  
+  .footer-card3 {
+    height: 250px;
+    width: 270px;
+    float: left;
+    margin-top: 25px;
+    margin-right: 20px;
+    padding: 0px 5px 0px 5px;
+  }
+  
+  .footer-card4 {
+    height: 250px;
+    width: 250px;
+    float: left;
+    margin-top: 25px;
+    padding: 0px 5px 0px 5px;
+  }
+  
+  .footer-card5 {
+    height: 220px;
+    width: 465px;
+    float: left;
+    margin-top: 25px;
+    padding: 0px 5px 0px 5px;
+    margin-left: 10px;
+    /* background-color: wheat; */
+  }
+  
+  .footer-card6 {
+    height: 220px;
+    width: 800px;
+    float: left;
+    margin-top: 25px;
+    padding: 0px 5px 0px 5px;
+    margin-left: 10px;
+    /* background-color: wheat; */
+    font-size: 30px;
+  }
+  
+  .footer-facebook-icon-anchor {
+    font-size: 50px;
+    margin-left: 85px;
+    color: white;
+    transition: color 0.3s;
+  }
+  
+  .footer-facebook-icon-anchor:hover {
+    color: rgb(8, 102, 255);
+  }
+  
+  .footer-instagram-icon-anchor {
+    font-size: 50px;
+    margin-left: 30px;
+    color: white;
+    transition: color 0.3s;
+  }
+  
+  .footer-instagram-icon-anchor:hover {
+    color: rgb(255, 94, 0);
+  }
+  
+  .footer-youtube-icon-anchor {
+    font-size: 50px;
+    margin-left: 30px;
+    color: white;
+    transition: color 0.3s;
+  }
+  
+  .footer-youtube-icon-anchor:hover {
+    color: rgb(217, 13, 13);
+  }
+  
+  .footer-signup {
+    float: left;
+    width: 350px;
+    height: 30px;
+    font-size: 18px;
+    background-color: rgb(35, 35, 35);
+    color: rgb(207, 207, 207);
+    padding: 5px 10px 5px 10px;
+    margin-top: 15px;
+    margin-left: 10px;
+    border: 1px solid rgb(207, 207, 207);
+  }
+  
+  .footer-submit-button {
+    float: left;
+    width: 373px;
+    height: 38px;
+    font-size: 5px;
+    background-color: rgb(35, 35, 35);
+    color: black;
+    padding: 5px 10px 5px 10px;
+    margin-top: 15px;
+    margin-left: 10px;
+    border-radius: 0px;
+    box-shadow: none;
+    text-align: center;
+    font-size: 18px;
+    background-color: white;
+    font-weight: bold;
+    transition: background-color 0.5s, color 0.5s;
+  }
+  
+  .footer-submit-button:hover {
+    background-color: black;
+    color: white;
+    cursor: pointer;
+  }
+
+  /* Menu Start */
+
+  .menu-list {
+    padding: 50px;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 30px;
+    margin-top: 40px;
+}
+
+.menu-list a {
+  text-decoration: none;
+}
+
+.menu-item {
+    background-color: #ffffff;
+    border-radius: 15px;
+    padding: 20px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease, background-color 0.3s ease, color 0.3s ease;
+}
+
+.menu-item:hover {
+    background-color: #ff986f;
+    transform: translateY(-10px);
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+}
+
+.menu-item img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.menu-item h3 {
+    color: #2c3e50;
+    font-family: 'Merriweather', serif;
+    font-weight: 700;
+    margin-top: 15px;
+    font-size: 1.8em;
+}
+
+.menu-item p {
+    color: #7f8c8d;
+    font-size: 1.1em;
+    margin-top: 10px;
+}
+
+/* Contact Page Start */
+
+.contact-banner {
+  width: 100%;
+  height: 250px;
+  margin-top: 100px;
+  background-color: #2c3e50;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  float: left;
+}
+
+.contact-bannertext {
+  color: white;
+  font-size: 50px;
+  font-weight: bold;
+  margin-top: 80px;
+  margin-left: 80px;
+}
+
+.submit-formheading {
+  font-size: 40px;
+  font-weight: bold;
+  margin-bottom: 40px;
+}
+
+.submit-form {
+  height: 750px;
+  width: 500px;
+  /* background-color: black; */
+  margin-top: 100px;
+  float: right;
+}
+
+label {
+  color: rgb(254, 181, 0);
+  font-size: 20px;
+}
+
+.forminput {
+  margin-top: 20px;
+  margin-bottom: 40px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  padding-right: 200px;
+  padding-left: 40px;
+  font-size: 14px;
+  border: 1px solid rgb(206, 212, 218);
+  color: rgb(73, 80, 87);
+  font-style: italic;
+}
+
+.Message {
+  padding-bottom: 100px;
+  margin-top: 20px;
+  margin-bottom: 40px;
+  padding-top: 15px;
+  padding-right: 200px;
+  padding-left: 40px;
+  font-size: 14px;
+  border: 1px solid rgb(206, 212, 218);
+  color: rgb(73, 80, 87);
+  font-style: italic;
+}
+
+.Requestaquote-button {
+  padding-top: 15px;
+  padding-bottom: 15px;
+  padding-right: 45px;
+  padding-left: 45px;
+  color: white;
+  font-size: 16px;
+  background-color: rgb(35, 33, 106);
+  border: none;
+  font-weight: bold;
+  border-radius: 5px;
+  font-family: Montserrat, san-serif;
+  box-shadow: none;
+  transition: background-color 0.15s;
+}
+
+.Requestaquote-button:hover {
+  background-color: rgba(35, 33, 106, 0.85);
+  cursor: pointer;
+}
+
+.contactus {
+  height: 600px;
+  width: 680px;
+  /* background-color: wheat; */
+  margin-top: 100px;
+  float: left;
+}
+
+.contactus-heading {
+  font-size: 28px;
+  font-weight: bold;
+  margin-top: 200px;
+  margin-left: 40px;
+  margin-bottom: 35px;
+}
+
+.contactus-text {
+  font-size: 18px;
+  margin-top: 10px;
+  margin-left: 120px;
+  margin-bottom: 35px;
+}
+
+/* Recipe Page Start */
+
+.recipe-box{
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(6, 4, 0, 0.5);
+  margin: 0px 20px 0px 20px;
+  padding: 20px;
+  width: auto;
+  height: 800px;
+  background-color: white;
+}
+
+.recipe{
+float: left;
+width: 650px;
+height: 780px;
+}
+
+.item-picture{
+  width: 450px;
+  height: 400px;
+  float:right;
+  margin-top:30PX;
+  margin-right: 50px;
+}
+
+.item-picture img{
+  width: 100%;
+  height: 400px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
