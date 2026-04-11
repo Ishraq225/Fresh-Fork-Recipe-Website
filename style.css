@@ -22,9 +22,13 @@ body {
 }
 
 .navbar {
-  height: 54px;
-  width: auto;
   background-color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  height: 54px;
+  width: 100%;
 }
 
 .navbar a {
@@ -32,25 +36,20 @@ body {
   text-decoration: none;
 }
 
-.navbar a:hover {
-  color: black;
-
-}
-
 .nav-items {
-  margin-top: 3px;
-  margin-right: 50px;
+  text-decoration: none;
+  color: white;
   border-radius: 50px;
-  padding: 16px 24px 16px 24px;
+  padding: 16px 24px;
   background-color: black;
-  border: none;
-  transition: background-color 0.3s ease;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+  display: inline-block;
 }
 
 .nav-items:hover {
   background-color: #b87c0d;
   transform: scale(1.1);
-
+  color: black;
 }
 
 /* Footer */
@@ -90,8 +89,8 @@ body {
 }
 
 .footer-card-texts a:hover {
-  color: rgb(145, 166, 217);
-  transform: scale(1.2);
+  color: rgb(250, 250, 250);
+  transform: scale(1.1);
 }
 
 .footer-card1 {
@@ -249,6 +248,11 @@ body {
   transform: translateY(-10px);
   box-shadow: 0 8px 25px rgba(0, 0, 0, 0.2);
   cursor: pointer;
+}
+
+.menu-item:hover p,
+.menu-item:hover h3 {
+  color: black;
 }
 
 .menu-item img {
