@@ -1,233 +1,235 @@
 body {
-    font-family: 'Lora', serif;
-    margin: 0;
-    padding: 0;
-    background: linear-gradient(to bottom right, #f0f8ff, #e3f2fd);
+  font-family: 'Lora', serif;
+  margin: 0;
+  padding: 0;
+  background: linear-gradient(to bottom right, #f0f8ff, #e3f2fd);
 }
 
-.header{
-    background-color: rgb(161, 145, 114);
-    height: 470px;
-    width: auto;
+.header {
+  background-color: rgb(161, 145, 114);
+  height: 470px;
+  width: auto;
 }
 
-.logo{
-    margin-left: 10px;
-    width: auto;
-    height: 400px;
+.logo {
+  margin-left: 10px;
+  width: auto;
+  height: 400px;
 }
 
-.header p{
-    color: white;
+.header p {
+  color: white;
 }
 
-.navbar{
-    height: 54px;
-    width: auto;
-    background-color: black;
+.navbar {
+  height: 54px;
+  width: auto;
+  background-color: black;
 }
 
-.navbar a{
-    color: white;
-    text-decoration: none;
+.navbar a {
+  color: white;
+  text-decoration: none;
 }
 
-.navbar a:hover{
-    color: black;
+.navbar a:hover {
+  color: black;
 
 }
 
-.nav-items{
+.nav-items {
   margin-top: 3px;
-    margin-right: 50px;
-    border-radius: 50px;
-    padding: 16px 24px 16px 24px;
-    background-color:black;
-    border: none;
-    transition: background-color 0.3s ease;
+  margin-right: 50px;
+  border-radius: 50px;
+  padding: 16px 24px 16px 24px;
+  background-color: black;
+  border: none;
+  transition: background-color 0.3s ease;
 }
 
-.nav-items:hover{
-    background-color:  #b87c0d;
-    transform: scale(1.1);
+.nav-items:hover {
+  background-color: #b87c0d;
+  transform: scale(1.1);
 
 }
 
 /* Footer */
 
 .footer {
-    width: 100%;
-    height: 600px;
-    background-color: rgb(35, 35, 35);
-    float: right;
-    margin-top: 100px;
-  }
-  
-  .footer-headings {
-    font-size: 22px;
-    font-weight: bold;
-    margin-top: 20px;
-    margin-left: 10px;
-    color: rgb(255, 255, 255);
-  }
-  
-  .footer-card-texts {
-    font-size: 18px;
-    margin-top: 20px;
-    margin-left: 10px;
-    line-height: 30px;
-    color: rgb(207, 207, 207);
-  }
-  
-  .footer-card-texts a {
-    text-decoration: none;
-    color: rgb(207, 207, 207);
-    font-size: 18px;
-    margin-top: 20px;
-    line-height: 30px;
-  }
-  
-  .footer-card-texts a:hover {
-    text-decoration: underline;
-    color: rgb(222, 222, 222);
-  }
-  
-  .footer-card1 {
-    height: 250px;
-    width: 330px;
-    float: left;
-    margin-right: 20px;
-    margin-top: 25px;
-    padding: 0px 5px 0px 5px;
-    margin-left: 10px;
-  }
-  
-  .footer-card2 {
-    height: 250px;
-    width: 270px;
-    float: left;
-    margin-right: 20px;
-    margin-top: 25px;
-    padding: 0px 5px 0px 5px;
-  }
-  
-  .footer-card3 {
-    height: 250px;
-    width: 270px;
-    float: left;
-    margin-top: 25px;
-    margin-right: 20px;
-    padding: 0px 5px 0px 5px;
-  }
-  
-  .footer-card4 {
-    height: 250px;
-    width: 250px;
-    float: left;
-    margin-top: 25px;
-    padding: 0px 5px 0px 5px;
-  }
-  
-  .footer-card5 {
-    height: 220px;
-    width: 465px;
-    float: left;
-    margin-top: 25px;
-    padding: 0px 5px 0px 5px;
-    margin-left: 10px;
-    /* background-color: wheat; */
-  }
-  
-  .footer-card6 {
-    height: 220px;
-    width: 800px;
-    float: left;
-    margin-top: 25px;
-    padding: 0px 5px 0px 5px;
-    margin-left: 10px;
-    /* background-color: wheat; */
-    font-size: 30px;
-  }
-  
-  .footer-facebook-icon-anchor {
-    font-size: 50px;
-    margin-left: 85px;
-    color: white;
-    transition: color 0.3s;
-  }
-  
-  .footer-facebook-icon-anchor:hover {
-    color: rgb(8, 102, 255);
-  }
-  
-  .footer-instagram-icon-anchor {
-    font-size: 50px;
-    margin-left: 30px;
-    color: white;
-    transition: color 0.3s;
-  }
-  
-  .footer-instagram-icon-anchor:hover {
-    color: rgb(255, 94, 0);
-  }
-  
-  .footer-youtube-icon-anchor {
-    font-size: 50px;
-    margin-left: 30px;
-    color: white;
-    transition: color 0.3s;
-  }
-  
-  .footer-youtube-icon-anchor:hover {
-    color: rgb(217, 13, 13);
-  }
-  
-  .footer-signup {
-    float: left;
-    width: 350px;
-    height: 30px;
-    font-size: 18px;
-    background-color: rgb(35, 35, 35);
-    color: rgb(207, 207, 207);
-    padding: 5px 10px 5px 10px;
-    margin-top: 15px;
-    margin-left: 10px;
-    border: 1px solid rgb(207, 207, 207);
-  }
-  
-  .footer-submit-button {
-    float: left;
-    width: 373px;
-    height: 38px;
-    font-size: 5px;
-    background-color: rgb(35, 35, 35);
-    color: black;
-    padding: 5px 10px 5px 10px;
-    margin-top: 15px;
-    margin-left: 10px;
-    border-radius: 0px;
-    box-shadow: none;
-    text-align: center;
-    font-size: 18px;
-    background-color: white;
-    font-weight: bold;
-    transition: background-color 0.5s, color 0.5s;
-  }
-  
-  .footer-submit-button:hover {
-    background-color: black;
-    color: white;
-    cursor: pointer;
-  }
+  width: 100%;
+  height: auto;
+  background-color: rgb(35, 35, 35);
+  float: right;
+  margin-top: 100px;
+}
 
-  /* Menu Start */
+.footer-headings {
+  font-size: 22px;
+  font-weight: bold;
+  margin-top: 20px;
+  margin-left: 10px;
+  color: rgb(255, 255, 255);
+}
 
-  .menu-list {
-    padding: 50px;
-    display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
-    gap: 30px;
-    margin-top: 40px;
+.footer-card-texts {
+  font-size: 18px;
+  margin-top: 20px;
+  margin-left: 10px;
+  line-height: 30px;
+  color: rgb(207, 207, 207);
+}
+
+.footer-card-texts a {
+  text-decoration: none;
+  color: rgb(207, 207, 207);
+  font-size: 18px;
+  line-height: 30px;
+
+  display: inline-block;
+  transition: transform 0.2s ease, color 0.3s ease;
+}
+
+.footer-card-texts a:hover {
+  color: rgb(145, 166, 217);
+  transform: scale(1.2);
+}
+
+.footer-card1 {
+  height: 250px;
+  width: 330px;
+  float: left;
+  margin-right: 20px;
+  margin-top: 25px;
+  padding: 0px 5px 0px 5px;
+  margin-left: 10px;
+}
+
+.footer-card2 {
+  height: 250px;
+  width: 270px;
+  float: left;
+  margin-right: 20px;
+  margin-top: 25px;
+  padding: 0px 5px 0px 5px;
+}
+
+.footer-card3 {
+  height: 250px;
+  width: 270px;
+  float: left;
+  margin-top: 25px;
+  margin-right: 20px;
+  padding: 0px 5px 0px 5px;
+}
+
+.footer-card4 {
+  height: 250px;
+  width: 250px;
+  float: left;
+  margin-top: 25px;
+  padding: 0px 5px 0px 5px;
+}
+
+.footer-card5 {
+  height: 220px;
+  width: 465px;
+  float: left;
+  margin-top: 25px;
+  padding: 0px 5px 0px 5px;
+  margin-left: 10px;
+  /* background-color: wheat; */
+}
+
+.footer-card6 {
+  height: 220px;
+  width: 800px;
+  float: left;
+  margin-top: 25px;
+  padding: 0px 5px 0px 5px;
+  margin-left: 10px;
+  /* background-color: wheat; */
+  font-size: 30px;
+}
+
+.footer-facebook-icon-anchor {
+  font-size: 50px;
+  margin-left: 85px;
+  color: white;
+  transition: color 0.3s;
+}
+
+.footer-facebook-icon-anchor:hover {
+  color: rgb(8, 102, 255);
+}
+
+.footer-instagram-icon-anchor {
+  font-size: 50px;
+  margin-left: 30px;
+  color: white;
+  transition: color 0.3s;
+}
+
+.footer-instagram-icon-anchor:hover {
+  color: rgb(255, 94, 0);
+}
+
+.footer-youtube-icon-anchor {
+  font-size: 50px;
+  margin-left: 30px;
+  color: white;
+  transition: color 0.3s;
+}
+
+.footer-youtube-icon-anchor:hover {
+  color: rgb(217, 13, 13);
+}
+
+.footer-signup {
+  float: left;
+  width: 350px;
+  height: 30px;
+  font-size: 18px;
+  background-color: rgb(35, 35, 35);
+  color: rgb(207, 207, 207);
+  padding: 5px 10px 5px 10px;
+  margin-top: 15px;
+  margin-left: 10px;
+  border: 1px solid rgb(207, 207, 207);
+}
+
+.footer-submit-button {
+  float: left;
+  width: 373px;
+  height: 38px;
+  font-size: 5px;
+  background-color: rgb(35, 35, 35);
+  color: black;
+  padding: 5px 10px 5px 10px;
+  margin-top: 15px;
+  margin-left: 10px;
+  border-radius: 0px;
+  box-shadow: none;
+  text-align: center;
+  font-size: 18px;
+  background-color: white;
+  font-weight: bold;
+  transition: background-color 0.5s, color 0.5s;
+}
+
+.footer-submit-button:hover {
+  background-color: black;
+  color: white;
+  cursor: pointer;
+}
+
+/* Menu Start */
+
+.menu-list {
+  padding: 50px;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 30px;
+  margin-top: 40px;
 }
 
 .menu-list a {
@@ -235,39 +237,39 @@ body {
 }
 
 .menu-item {
-    background-color: #ffffff;
-    border-radius: 15px;
-    padding: 20px;
-    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
-    transition: transform 0.3s ease, box-shadow 0.3s ease, background-color 0.3s ease, color 0.3s ease;
+  background-color: #ffffff;
+  border-radius: 15px;
+  padding: 20px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease, background-color 0.3s ease, color 0.3s ease;
 }
 
 .menu-item:hover {
-    background-color: #ff986f;
-    transform: translateY(-10px);
-    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.2);
-    cursor: pointer;
+  background-color: #ff986f;
+  transform: translateY(-10px);
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.2);
+  cursor: pointer;
 }
 
 .menu-item img {
-    width: 100%;
-    height: 200px;
-    object-fit: cover;
-    border-radius: 10px;
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 10px;
 }
 
 .menu-item h3 {
-    color: #2c3e50;
-    font-family: 'Merriweather', serif;
-    font-weight: 700;
-    margin-top: 15px;
-    font-size: 1.8em;
+  color: #2c3e50;
+  font-family: 'Merriweather', serif;
+  font-weight: 700;
+  margin-top: 15px;
+  font-size: 1.8em;
 }
 
 .menu-item p {
-    color: #7f8c8d;
-    font-size: 1.1em;
-    margin-top: 10px;
+  color: #7f8c8d;
+  font-size: 1.1em;
+  margin-top: 10px;
 }
 
 /* Contact Page Start */
@@ -382,7 +384,7 @@ label {
 
 /* Recipe Page Start */
 
-.recipe-box{
+.recipe-box {
   border-radius: 5px;
   box-shadow: 0 2px 4px rgba(6, 4, 0, 0.5);
   margin: 0px 20px 0px 20px;
@@ -392,24 +394,292 @@ label {
   background-color: white;
 }
 
-.recipe{
-float: left;
-width: 650px;
-height: 780px;
+.recipe {
+  float: left;
+  width: 650px;
+  height: 780px;
 }
 
-.item-picture{
+.item-picture {
   width: 450px;
   height: 400px;
-  float:right;
-  margin-top:30PX;
+  float: right;
+  margin-top: 30PX;
   margin-right: 50px;
 }
 
-.item-picture img{
+.item-picture img {
   width: 100%;
   height: 400px;
   object-fit: cover;
   border-radius: 10px;
 }
 
+
+/* ============================================
+   RESPONSIVE MEDIA QUERIES
+   ============================================ */
+
+/* --- Tablet: 768px - 1024px --- */
+@media (max-width: 1024px) {
+
+  /* Header */
+  .header {
+    height: auto;
+    padding-bottom: 20px;
+  }
+
+  .logo {
+    height: 250px;
+    display: block;
+    margin: 0 auto;
+  }
+
+  /* Navbar */
+  .navbar {
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 8px 0;
+  }
+
+  .nav-items {
+    margin-right: 10px;
+    margin-left: 10px;
+    padding: 10px 16px;
+  }
+
+  /* Footer */
+  .footer {
+    height: auto;
+    padding-bottom: 30px;
+  }
+
+  .footer-card1,
+  .footer-card2,
+  .footer-card3,
+  .footer-card4 {
+    width: 45%;
+    height: auto;
+  }
+
+  .footer-card5,
+  .footer-card6 {
+    width: 90%;
+    height: auto;
+  }
+
+  .footer-signup {
+    width: 80%;
+  }
+
+  .footer-submit-button {
+    width: 85%;
+  }
+
+  /* Contact */
+  .contact-bannertext {
+    font-size: 36px;
+    margin-left: 40px;
+    margin-top: 60px;
+  }
+
+  .submit-form {
+    width: 90%;
+    float: none;
+    margin: 60px auto 0 auto;
+    height: auto;
+  }
+
+  .contactus {
+    width: 90%;
+    float: none;
+    height: auto;
+    margin: 40px auto 0 auto;
+  }
+
+  .contactus-heading {
+    margin-top: 40px;
+    margin-left: 20px;
+  }
+
+  .contactus-text {
+    margin-left: 20px;
+  }
+
+  /* Recipe */
+  .recipe-box {
+    height: auto;
+  }
+
+  .recipe {
+    width: 100%;
+    float: none;
+    height: auto;
+  }
+
+  .item-picture {
+    width: 100%;
+    float: none;
+    margin: 20px auto;
+    height: auto;
+  }
+
+  .item-picture img {
+    height: 300px;
+    width: 100%;
+  }
+}
+
+
+/* --- Mobile: up to 767px --- */
+@media (max-width: 767px) {
+
+  /* Header */
+  .header {
+    height: auto;
+    padding-bottom: 15px;
+    text-align: center;
+  }
+
+  .logo {
+    height: 160px;
+    width: 90%;
+    margin: 10px auto;
+    display: block;
+  }
+
+  /* Navbar */
+  .navbar {
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    padding: 5px 0;
+  }
+
+  .nav-items {
+    margin: 4px 10px;
+    padding: 12px 16px;
+    border-radius: 8px;
+    text-align: center;
+  }
+
+  /* Footer */
+  .footer {
+    height: auto;
+    padding-bottom: 30px;
+  }
+
+  .footer-card1,
+  .footer-card2,
+  .footer-card3,
+  .footer-card4,
+  .footer-card5,
+  .footer-card6 {
+    width: 90%;
+    float: none;
+    height: auto;
+    margin: 15px auto 0 auto;
+  }
+
+  .footer-facebook-icon-anchor {
+    margin-left: 20px;
+  }
+
+  .footer-signup {
+    width: 85%;
+    float: none;
+    margin: 15px auto 0 auto;
+    display: block;
+  }
+
+  .footer-submit-button {
+    width: 90%;
+    float: none;
+    margin: 10px auto 0 auto;
+    display: block;
+  }
+
+  /* Menu */
+  .menu-list {
+    padding: 20px;
+    grid-template-columns: 1fr;
+  }
+
+  /* Contact */
+  .contact-banner {
+    height: auto;
+    padding: 30px 0;
+    margin-top: 50px;
+  }
+
+  .contact-bannertext {
+    font-size: 26px;
+    margin-left: 20px;
+    margin-top: 20px;
+  }
+
+  .submit-formheading {
+    font-size: 26px;
+  }
+
+  .submit-form {
+    width: 92%;
+    float: none;
+    margin: 40px auto 0 auto;
+    height: auto;
+  }
+
+  .forminput,
+  .Message {
+    padding-right: 20px;
+    padding-left: 20px;
+    width: 100%;
+    box-sizing: border-box;
+  }
+
+  .contactus {
+    width: 92%;
+    float: none;
+    height: auto;
+    margin: 30px auto 0 auto;
+  }
+
+  .contactus-heading {
+    margin-top: 20px;
+    margin-left: 10px;
+    font-size: 22px;
+  }
+
+  .contactus-text {
+    margin-left: 10px;
+    font-size: 16px;
+  }
+
+  /* Recipe */
+  .recipe-box {
+    margin: 0 10px;
+    padding: 15px;
+    height: auto;
+  }
+
+  .recipe {
+    width: 100%;
+    float: none;
+    height: auto;
+  }
+
+  .item-picture {
+    width: 100%;
+    float: none;
+    margin: 15px 0;
+    height: auto;
+  }
+
+  .item-picture img {
+    height: 220px;
+    width: 100%;
+  }
+}
