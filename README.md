@@ -1,5 +1,7 @@
 # 🍽️ FreshFork — Healthy Recipe Website
 
+Website link: https://fresh-fork-recipe-website.vercel.app/
+
 ## 🌱 Overview
 
 **FreshFork** is a modern recipe website designed for diet-conscious individuals who want to prepare **healthy, balanced meals** with ease. The platform provides carefully curated recipes for **breakfast, lunch, and dinner**, each with **accurate ingredient measurements** and **calorie tracking** to help users maintain a healthy lifestyle.
